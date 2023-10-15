@@ -5,7 +5,7 @@
 }
 
 .nav-link{
-    font-size: 0.8rem !important;
+    font-size: 0.85rem !important;
     margin-left: 20px;
 }
 
@@ -52,4 +52,17 @@
 .order{
     height: auto;
     background-color: rgba(162, 125, 82, 1);
+}
+
+.subscribe{
+    height: auto;
+    background-color: rgba(241, 231,231, 1);
+}
+
+.btn-floating:hover{
+    background-color:rgba(255, 165, 0, 1) !important ;
+}
+
+.list-unstyled{
+    font-size: 0.85rem;
 }
