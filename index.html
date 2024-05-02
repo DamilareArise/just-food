@@ -22,70 +22,76 @@
     />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-lg-5" href="#">
-            <img
-            src="./img/Frame 1.png"
-            class="me-3"
-            height="40"
-            alt="Just Food"
-            loading="lazy"
-          />
-          <small>Just Food</small>
+    <header class="bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-0 col-lg-11 m-auto">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img
+                src="./img/Frame 1.png"
+                class="me-3"
+                height="40"
+                alt="Just Food"
+                loading="lazy"
+              />
+              <small>Just Food</small>
+    
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ms-lg-2">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item ms-lg-2">
+                    <a class="nav-link" href="#">Review</a>
+                  </li>
+                  <li class="nav-item ms-lg-2">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item ms-lg-2">
+                    <a class="nav-link btn rounded-pill px-3" href="#" style="background-color: rgba(255, 165, 0, 1);">Order Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
 
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto fw-bold mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item ms-lg-2">
-                <a class="nav-link" href="#">Products</a>
-              </li>
-              <li class="nav-item ms-lg-2">
-                <a class="nav-link" href="#">Review</a>
-              </li>
-              <li class="nav-item ms-lg-2">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item ms-lg-2">
-                <a class="nav-link btn rounded-pill me-lg-5" href="#" style="background-color: rgba(255, 165, 0, 1);">Order Now</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
 
     <!-- banner -->
-    <section class="banner row container-fluid p-3" style="margin-top: 62px !important;">
-        <div class="banner_item col-lg-6">
-            <img src="./img/image 15.png" height="350" alt="" class="">
-        </div>
-        <div class="banner_item col-lg-6">
-            <div class="container w-75 ms-lg-1">
-                <h2 class="mb-4">Straight out of Kitchen to your Door Step</h2>
-                <p class="">As we know we’re in a digital era, we made food easier for you, by just placing your order from us and get the food you want delivered at your doorstep</p>
-                <a href="" class="btn rounded-pill my-3" style="background-color: rgba(255, 165, 0, 1);">Order Now</a>
+    <section class="banner p-4">
+        <div class="row m-auto col-lg-11 align-items-center">
+            <div class="banner_item col-lg-6 d-flex justify-content-lg-start justify-content-sm-center">
+                <img src="./img/image 15.png" height="" alt="" class="">
+            </div>
+            <div class="banner_item col-lg-6">
+                <div class="col-9 m-auto">
+                    <h2 class="mb-4">Straight out of Kitchen to your Door Step</h2>
+                    <p class="">As we know we’re in a digital era, we made food easier for you, by just placing your order from us and get the food you want delivered at your doorstep</p>
+                    <a href="" class="btn rounded-pill" style="background-color: rgba(255, 165, 0, 1);">Order Now</a>
+                </div>
             </div>
         </div>
     </section>
+
     <!-- end of banner  -->
 
-    <section class="choose pb-4 container-fluid">
-        <h3 class="text-center my-4">Why choose Just Food</h3>
-        <div class="choose_div w-75 container row m-auto gap-sm-3">
+    <section class="choose pb-4">
+        <h3 class="text-center my-4">Why Choose Just Food</h3>
+        <div class="choose_div col-lg-11 row m-auto justify-content-evenly gap-sm-3">
             <div class="choose_card shadow-3 card p-2 col-lg-3">
                 <div class="rounded-circle choose_icon m-auto my-3">
                     <img src="./img/Frame 17.png" alt="">
@@ -100,7 +106,7 @@
                 <h5 class="text-center">Easy Order</h5>
                 <p class="p-3 text-center">We made it easier for you to order for your food at your convenient time</p>
             </div>
-            <div class="choose_card shadow-3 p-2 card col-lg-3 ">
+            <div class="choose_card shadow-3 p-2 card col-lg-3">
                 <div class="rounded-circle choose_icon m-auto my-3">
                     <img src="./img/Frame 22.png" alt="">
                 </div>
@@ -111,10 +117,10 @@
     </section>
 
     <!-- Our Product -->
-    <section class="container-fluid product pb-4">
+    <section class="pb-4">
         <h3 class="text-center my-4">Our Product</h3>
         <h5 class="text-center my-4">Local Food</h5>
-        <div class="choose_div w-75 container row m-auto gap-sm-3">
+        <div class="choose_div col-lg-11 justify-content-evenly m-auto row gap-sm-3">
             <div class="product_card card p-2 col-lg-3">
                 <img src="/img/image 2.png" alt="" class="card-img-top">
                 <div class="d-flex justify-content-between mt-3">
@@ -153,9 +159,9 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid product pb-4 ">
+    <section class="pb-4 ">
         <h5 class="text-center my-2">Inter-Continental Foods</h5>
-        <div class="choose_div w-75 container row m-auto gap-sm-3">
+        <div class="choose_div col-lg-11 justify-content-evenly m-auto row gap-sm-3">
             <div class="product_card card p-2 col-lg-3 col-md-6 col-sm-12">
                 <img src="/img/image 6.png" alt="" class="card-img-top">
                 <div class="d-flex justify-content-between mt-3">
@@ -195,9 +201,9 @@
         </div>
 
     </section>
-    <section class="container-fluid product pb-2 ">
+    <section class="pb-2 ">
         <h5 class="text-center my-2">Desserts</h5>
-        <div class="choose_div w-75 container row m-auto gap-sm-3">
+        <div class="choose_div col-lg-11 justify-content-evenly m-auto row gap-sm-3">
             <div class="product_card card p-2 col-lg-3 col-md-6 col-sm-12">
                 <img src="/img/image 10.png" alt="" class="card-img-top">
                 <div class="d-flex justify-content-between mt-3">
