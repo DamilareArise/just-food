@@ -59,10 +59,6 @@
     font-size: 0.8rem;
 }
 
-.form-control:focus{
-    outline-color:rgba(255, 165, 0, 1); 
-}
-
 
 @media (max-width: 768px){
     .banner_item > img{
@@ -83,6 +79,16 @@
 
     .choose_div{
         gap: 10px;
+    }
+
+    .subscribe-dish{
+        width: fit-content !important;
+        margin: auto;
+    }
+
+    .order-img{
+        width: fit-content !important;
+        margin: auto;
     }
 }
 
